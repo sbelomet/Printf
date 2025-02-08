@@ -10,7 +10,7 @@
 
 ## 
 
-### Objective
+### What to do
 
 Parse a string, and do a thing when you see a `%`:
 
