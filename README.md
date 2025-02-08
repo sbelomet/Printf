@@ -1,29 +1,29 @@
 # 🖨 ft_printf 🖨
 
-`tu sais comment cest on a printf pour 42`
+`Remaking of the printf C function`
 
-### Resources utiles
+### Useful resources
 
-**📚 [`GITBOOK`](https://42-cursus.gitbook.io/guide/rank-01/ft_printf) 📚** - Gitbook pour ft_printf
+**📚 [`GITBOOK`](https://42-cursus.gitbook.io/guide/rank-01/ft_printf) 📚** - Gitbook for ft_printf
 
-**🧪 [`FRANCINETTE`](https://github.com/xicodomingues/francinette) 🧪** - Si la francinette elle passe, alors c'est nickel
+**🧪 [`FRANCINETTE`](https://github.com/xicodomingues/francinette) 🧪** - Testing
 
 ## 
 
-### Ce qu'il faut faire
+### Objective
 
-Parse une string, et quand tu vois un `%`, fait un truc comme:
+Parse a string, and do a thing when you see a `%`:
 
-| OPTIONS | À FAIRE |
+| OPTIONS | TODO |
 |-|-|
-| %c | imprime un caractère |
-| %s | imprime une string |
-| %p | imprime une adresse en hexadécimal |
-| %d | imprime un int |
-| %i | même chose que %d (fun!) |
-| %u | imprime un unsigned int |
-| %x | imprime un nombre en hexadécimal avec des minuscules |
-| %X | imprime un nombre en hexadécimal avec des majuscules |
-| %% | imprime un `%` |
+| %c | write a character |
+| %s | write a string |
+| %p | write a hexadecimal address |
+| %d | write an integer |
+| %i | same as above |
+| %u | write an unsigned integer |
+| %x | write a hexadecimal number in lowercase |
+| %X | write a hexadecimal number in uppercase |
+| %% | write a `%` |
 
-Pour ce qui est de ces options, le résultat dois être identique à printf, alors compare mon pote
+Result should be identical to printf for these options
